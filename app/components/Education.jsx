@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div className="unt-green h-full text-white  mb-4 flex flex-col">
+    <div className="bg-black h-full text-white  mb-4 flex flex-col">
       <h1 className="text-8xl text-center mt-8">education</h1>
       <div className="mb-2">
         <h3 className="text-xl font-semibold">University of Example</h3>

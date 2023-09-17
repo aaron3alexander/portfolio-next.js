@@ -32,7 +32,7 @@ export default function Sidebar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [handleScroll]);
 
   useEffect(() => {
     if (currentSection != "home" && currentSection != "education") {

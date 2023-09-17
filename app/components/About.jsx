@@ -56,10 +56,10 @@ export default function About() {
 
         <div className="h-1/3 w-1/3 space-y-24 transform -translate-y-8">
           <div className=" h-full">
-            <h1 className="text-6xl mb-2">I'm Aaron</h1>
+            <h1 className="text-6xl mb-2">{"I'm Aaron"}</h1>
             <hr className="h-0.5 bg-black mb-4" />
             <p>
-              I'm a <b>senior</b> at the University of North Texas who's
+              I am a <b>senior</b> at the University of North Texas who is
               double-majoring in Computer Science and Chemistry, with minors in
               Math and Biology. Feel free to download my resume{" "}
               <a className="text-blue-600" target="_blank" href={RESUME_LINK}>
@@ -69,12 +69,12 @@ export default function About() {
             </p>
             <br />
             <p>
-              I'm currently learning Next.js{" "}
+              {"I'm "} currently learning Next.js{" "}
               <span className="rounded-lg px-1 bg-black text-white text-green-700">
                 {"(this website was built using it actually!)"}
               </span>
-              , Typescript, and Node.js. I've done mainly frontend work in the
-              past, but I would love to do fullstack stuff in the future!
+              , Typescript, and Node.js. {"I've "} done mainly frontend work in
+              the past, but I would love to do fullstack stuff in the future!
             </p>
             <br />
             <p>
