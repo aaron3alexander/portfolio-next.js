@@ -1,0 +1,45 @@
+.sidebar{
+    position: fixed;
+    top: 50%;
+    right: 5vh;
+    transform: translateY(-50%); 
+    width: 20px; 
+    background-color: transparent; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1
+}
+
+.shape {
+    width: 10px;
+    height: 10px; 
+    background-color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.shape.dark {
+    background-color: black;
+}
+
+.diamond {
+    transform: rotate(45deg);
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    border-width: 2px;
+    border-color: white;
+    background-color: transparent;
+}
+
+.square.dark {
+    width: 16px;
+    height: 16px;
+    border-width: 2px;
+    border-color: black;
+    background-color: transparent;
+}
