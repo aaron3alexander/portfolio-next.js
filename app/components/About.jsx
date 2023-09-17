@@ -20,7 +20,7 @@ export default function About() {
       <h1 className="text-8xl text-center mt-8">about me</h1>
 
       <div className="flex justify-center items-center transform -translate-y-12 h-screen">
-        <div className="mr-24 justify-center items-center flex flex-col h-1/2 space-y-8">
+        <div className="hidden sm:inline mr-24 justify-center items-center flex flex-col h-1/2 space-y-8">
           <Image
             className="border-4 border-black w-350 h-350 rounded-full cursor-pointer"
             src={mypic}
@@ -55,8 +55,8 @@ export default function About() {
         </div>
 
         <div className="h-1/3 w-1/3 space-y-24 transform -translate-y-8">
-          <div className=" h-full">
-            <h1 className="text-6xl mb-2">{"I'm Aaron"}</h1>
+          <div className="text-xs sm:text-base h-full">
+            <h1 className="text-2xl sm:text-6xl mb-2">{"I'm Aaron"}</h1>
             <hr className="h-0.5 bg-black mb-4" />
             <p>
               I am a <b>senior</b> at the University of North Texas who is

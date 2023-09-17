@@ -16,7 +16,7 @@ import Link from "next/link";
 
 export default function Experience() {
   return (
-    <div className=" p-4 mb-4  h-screen border-8">
+    <div className="p-4 mb-4  h-full w-full">
       <h1 className="text-8xl text-center mt-8 mb-24 ">experience</h1>
       <div className="flex h-full w-full space-x-28 justify-center ">
         <div className="border-2 border-black h-1/2 w-1/4 rounded-lg shadow-2xl p-4 flex flex-col">
@@ -26,7 +26,7 @@ export default function Experience() {
             className="flex justify-center mb-5"
           >
             <Image
-              className="w-350 h-350"
+              className="w-200 h-200"
               src={zendesk}
               alt="Profile Photo"
               width="200"
