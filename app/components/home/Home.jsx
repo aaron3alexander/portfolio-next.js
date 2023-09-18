@@ -19,10 +19,12 @@ export default function Home() {
 
     const timer = setTimeout(() => {
       let i = 1;
+      const altLogo = document.querySelector("#alt_logo");
+      altLogo.classList.remove("invisible");
+      altLogo.classList.add("animate-fade-in");
+
       paths.forEach((element) => {
         element.classList.remove("hidden");
-      });
-      paths.forEach((element) => {
         element.id = `child${i}`;
         ++i;
       });
@@ -49,7 +51,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="w-full h-screen hidden sm:flex ">
+      <div className="w-full h-screen hidden lg:flex ">
         <Canvas
           id="canvas"
           style={{ width: "100%", height: "100vh" }}
@@ -59,15 +61,20 @@ export default function Home() {
           <StarsAnimated />
         </Canvas>
       </div>
-      <div className="sm:bg-transparent w-full justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex">
+      <div className="lg:bg-transparent w-full justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex">
         <div className="flex flex-col justify-center items-center">
-          <div className="text-center sm:text-left w-full px-4">
-            <span className="animate-hide animate opacity-0 transition-opacity duration-2000 text-white text-xl sm:text-2xl ">
+          <div className="text-center lg:text-left w-full px-4">
+            <span className="animate-hide animate opacity-0 transition-opacity duration-2000 text-white text-xl lg:text-2xl ">
               Hey, my name is
             </span>
-            <h1 className="sm:hidden text-white text-6xl">aaron alexander</h1>
+            <div className="lg:hidden">
+              <h1 id="alt_logo" className="text-white invisible text-6xl">
+                aaron alexander
+              </h1>
+            </div>
+
             <a href="#about">
-              <div className="hidden sm:flex">
+              <div className="hidden lg:flex">
                 <svg
                   width="1184"
                   height="111"

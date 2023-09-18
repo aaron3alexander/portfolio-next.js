@@ -49,7 +49,7 @@ export default function Sidebar() {
   }, [currentSection]);
 
   return (
-    <div className="hidden sm:flex">
+    <div className="hidden md:flex">
       <div className="sidebar">
         <a href="#home">
           <div

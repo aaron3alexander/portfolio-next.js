@@ -15,12 +15,12 @@ export default function About() {
     "https://drive.google.com/file/d/14Z2AnaXS2PXQtQA7x8Z2E18ig0bX2un6/view?usp=sharing";
 
   return (
-    <div className="bg-white h-full flex flex-col justify-center space-y-4 sm:py-0">
-      <h1 className="text-6xl sm:text-8xl text-center mt-8">about me</h1>
+    <div className="bg-white h-full flex flex-col justify-evenly lg:justify-center  lg:py-0">
+      <h1 className="text-6xl lg:text-8xl text-center mt-8">about me</h1>
 
-      <div className="flex flex-col sm:flex-row space-y-12 sm:justify-center items-center sm:transform sm:-translate-y-12 sm:h-full">
-        <div className="sm:mr-24 justify-center items-center flex flex-col h-1/2 space-y-2 sm:space-y-8">
-          <div className="w-48 h-48 border-4 border-black sm:w-96 sm:h-96 rounded-full">
+      <div className="flex flex-col lg:flex-row space-y-12 lg:justify-center items-center lg:transform lg:-translate-y-12 lg:h-full">
+        <div className="lg:mr-24 justify-center items-center flex flex-col h-1/2 space-y-2 lg:space-y-8">
+          <div className="w-48 h-48 border-4 border-black lg:w-96 lg:h-96 rounded-full">
             <Image
               className="rounded-full"
               src={mypic}
@@ -31,28 +31,28 @@ export default function About() {
             />
           </div>
 
-          <div className="justify-center items-center flex rounded-lg border-black border-2 w-5/6 space-x-4 sm:space-x-8">
+          <div className="justify-center items-center flex rounded-lg border-black border-2 w-5/6 space-x-4 lg:space-x-8">
             <Link href={RESUME_LINK} target="_blank">
-              <DescriptionIcon className="w-7 h-7 sm:w-9 sm:h-9" />
+              <DescriptionIcon className="w-7 h-7 lg:w-9 lg:h-9" />
             </Link>
             <Link
               target="_blank"
               href="https://www.linkedin.com/in/aaron3alexander/"
             >
-              <SiLinkedin className="w-6 h-6 sm:w-8 sm:h-8" />
+              <SiLinkedin className="w-6 h-6 lg:w-8 lg:h-8" />
             </Link>
             <Link target="_blank" href="https://github.com/aaron3alexander">
-              <SiGithub className="w-6 h-6 sm:w-8 sm:h-8" />
+              <SiGithub className="w-6 h-6 lg:w-8 lg:h-8" />
             </Link>
             <Link target="_blank" href="mailto:aaron.3alexander@gmail.com">
-              <SiGmail className="w-6 h-6 sm:w-8 sm:h-8" />
+              <SiGmail className="w-6 h-6 lg:w-8 lg:h-8" />
             </Link>
           </div>
         </div>
 
-        <div className="h-full sm:h-1/3 px-8 sm:w-1/3 space-y-8 transform -translate-y-8">
-          <div className="text-xs sm:text-base h-fit">
-            <h1 className="text-2xl sm:text-6xl sm:mb-2">{"I'm Aaron"}</h1>
+        <div className="h-full lg:h-1/3 px-8 lg:w-1/3 space-y-8 transform -translate-y-8">
+          <div className="text-xs lg:text-base h-fit">
+            <h1 className="text-2xl lg:text-6xl lg:mb-2">{"I'm Aaron"}</h1>
             <hr className="h-0.5 bg-black mb-4" />
             <p>
               I am a <b>senior</b> at the University of North Texas who is
