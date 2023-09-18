@@ -7,15 +7,15 @@ import Experience from "./components/Experience";
 
 export default function Page() {
   return (
-    <div className="section_container">
+    <div>
       <Sidebar />
-      <section id="home">
+      <section className="bg-black h-screen" id="home">
         <Home />
       </section>
-      <section id="about">
+      <section className="h-screen" id="about">
         <About />
       </section>
-      <section id="education">
+      <section className="unt-green h-screen" id="education">
         <Education />
       </section>
       <section id="experience">

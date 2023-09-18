@@ -49,37 +49,39 @@ export default function Sidebar() {
   }, [currentSection]);
 
   return (
-    <div className="sidebar">
-      <a href="#home">
-        <div
-          className={`shape ${
-            currentSection === "home" ? "square" : "diamond"
-          }`}
-        ></div>
-      </a>
+    <div className="hidden sm:flex">
+      <div className="sidebar">
+        <a href="#home">
+          <div
+            className={`shape ${
+              currentSection === "home" ? "square" : "diamond"
+            }`}
+          ></div>
+        </a>
 
-      <a href="#about">
-        <div
-          className={`shape ${
-            currentSection === "about" ? "square" : "diamond"
-          }`}
-        ></div>
-      </a>
+        <a href="#about">
+          <div
+            className={`shape ${
+              currentSection === "about" ? "square" : "diamond"
+            }`}
+          ></div>
+        </a>
 
-      <a href="#education">
-        <div
-          className={`shape ${
-            currentSection === "education" ? "square" : "diamond"
-          }`}
-        ></div>
-      </a>
-      <a href="#experience">
-        <div
-          className={`shape ${
-            currentSection === "experience" ? "square" : "diamond"
-          }`}
-        ></div>
-      </a>
+        <a href="#education">
+          <div
+            className={`shape ${
+              currentSection === "education" ? "square" : "diamond"
+            }`}
+          ></div>
+        </a>
+        <a href="#experience">
+          <div
+            className={`shape ${
+              currentSection === "experience" ? "square" : "diamond"
+            }`}
+          ></div>
+        </a>
+      </div>
     </div>
   );
 }
