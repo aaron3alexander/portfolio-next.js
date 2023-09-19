@@ -18,7 +18,7 @@ export default function Page() {
       <section className="unt-green h-screen" id="education">
         <Education />
       </section>
-      <section id="experience">
+      <section className="h-screen" id="experience">
         <Experience />
       </section>
     </div>

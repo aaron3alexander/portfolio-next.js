@@ -16,80 +16,83 @@ import Link from "next/link";
 
 export default function Experience() {
   return (
-    <div className="p-4 mb-4  h-full w-full">
-      <h1 className="text-4xl sm:text-8xl text-center mt-8 mb-24 ">
+    <div className="p-4 mb-4 flex flex-col h-full w-full">
+      <h1 className="text-6xl lg:text-8xl text-center mt-8 mb-12 lg:mb-24">
         experience
       </h1>
-      <div className="flex flex-col sm:flex-row h-full w-full space-x-28 justify-center ">
-        <div className="border-2 border-black h-1/2 w-1/4 rounded-lg shadow-2xl p-4 flex flex-col">
-          <Link
-            href={"https://www.zendesk.com/"}
-            target="_blank"
-            className="flex justify-center mb-5"
-          >
-            <Image
-              className="w-48 h-36"
-              src={zendesk}
-              alt="Profile Photo"
-              width="200"
-              height="200"
-            />
-          </Link>
-          <hr className="h-1 bg-black mb-4" />
 
-          <div className="text-left">
-            <h1>
-              <b>Company:</b> Zendesk
-            </h1>
-            <h1>
-              <b>Position:</b> Fullstack SWE Intern
-            </h1>
-            <h1>
-              <b>Duration:</b> June 2023 - August 2023
-            </h1>
-            <h1>
-              <b>Tech used:</b>
-            </h1>
-            <div className="flex items-center">
-              <BiLogoReact className="w-12 h-12" />
-              <AiFillHtml5 className="w-12 h-12" />
-              <SiCss3 className="w-10 h-10" />
-              <BiLogoJavascript className="w-12 h-12" />
-              <SiTypescript className="w-9 h-9" />
-              <SiDocker className="w-12 h-12" />
-              <SiRubyonrails className="w-12 h-12" />
-              <SiJest className="w-9 h-9" />
-              <TbBrandCypress className="w-10 h-10" />
+      <div className="flex flex-col h-full w-full space-y-4 items-center justify-evenly lg:flex-row lg:justify-center lg:items-start lg:space-x-28 lg:space-y-0">
+        <div className="border-2 border-black w-full h-2/3 lg:h-96 lg:w-96 lg:shadow-2xl rounded-lg">
+          <div className="w-full h-full px-4 py-1 flex flex-col">
+            <div className="w-full flex justify-center item-center mb-1 lg:mb-0 ">
+              <Link href={"https://www.zendesk.com/"} target="_blank">
+                <Image
+                  className="w-24 h-16 lg:w-40 lg:h-32"
+                  src={zendesk}
+                  alt="Zendesk"
+                  width="full"
+                  height="full"
+                />
+              </Link>
+            </div>
+
+            <hr className="h-1 bg-black mb-4" />
+
+            <div className="text-left">
+              <h1>
+                <b>Company:</b> Zendesk
+              </h1>
+              <h1>
+                <b>Position:</b> Fullstack SWE Intern
+              </h1>
+              <h1>
+                <b>Duration:</b> June 2023 - August 2023
+              </h1>
+              <h1>
+                <b>Tech used:</b>
+              </h1>
+              <div className="items-center hidden lg:flex">
+                <BiLogoReact className="w-12 h-12" />
+                <AiFillHtml5 className="w-12 h-12" />
+                <SiCss3 className="w-10 h-10" />
+                <BiLogoJavascript className="w-12 h-12" />
+                <SiTypescript className="w-9 h-9" />
+                <SiDocker className="w-12 h-12" />
+                <SiRubyonrails className="w-12 h-12" />
+                <SiJest className="w-9 h-9" />
+                <TbBrandCypress className="w-10 h-10" />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="border-2 border-black h-1/2 w-1/4 rounded-lg shadow-2xl p-4 flex flex-col">
-          <Link
-            href={"https://www.zendesk.com/"}
-            target="_blank"
-            className="flex justify-center "
-          >
-            <Image
-              className="w-350 h-350"
-              src={childrens}
-              alt="Profile Photo"
-              width="full"
-              height="190"
-            />
-          </Link>
-          <hr className="h-1 bg-black mb-4" />
+        <div className="border-2 border-black w-full h-2/3 lg:h-96 lg:w-96 rounded-lg lg:shadow-2xl">
+          <div className="w-full h-full px-4 flex flex-col">
+            <div className="w-full flex justify-center item-center">
+              <Link href={"https://www.childrens.com/"} target="_blank">
+                <Image
+                  className="w-48 h-20 lg:w-80 lg:h-32 lg:mb-1"
+                  src={childrens}
+                  alt="Childrens Health"
+                  width="full"
+                  height="full"
+                />
+              </Link>
+            </div>
 
-          <div className="text-left">
-            <h1>
-              <b>Position:</b> Volunter Developer
-            </h1>
-            <h1>
-              <b>Duration:</b> October 2022 - December 2022
-            </h1>
-            <h1>
-              <b>Tech used:</b>
-            </h1>
+            <hr className="h-1 bg-black mb-4" />
+
+            <div className="text-left">
+              <h1>
+                <b>Position:</b> Volunter Developer
+              </h1>
+              <h1>
+                <b>Duration:</b> October 2022 - December 2022
+              </h1>
+              <h1>
+                <b>Tech used:</b>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
