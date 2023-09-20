@@ -10,10 +10,7 @@ export default function Contact() {
         contact me
       </h1>
 
-      <form
-        className="h-fit w-80 lg:w-fit text-white space-y-2 flex flex-col justify-center items-center rounded-lg p-4"
-        onSubmit={handleSubmit}
-      >
+      <form className="h-fit w-80 lg:w-fit text-white space-y-2 flex flex-col justify-center items-center rounded-lg p-4">
         <div className="flex w-full justify-between lg:space-x-2">
           <div className="flex flex-col w-1/2">
             <label htmlFor="frm-first">First</label>

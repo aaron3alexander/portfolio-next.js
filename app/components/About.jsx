@@ -16,7 +16,7 @@ export default function About() {
 
   return (
     <div className="bg-white h-full flex flex-col justify-evenly lg:justify-center  lg:py-0">
-      <h1 className="text-6xl lg:text-8xl text-center mt-8">about me</h1>
+      <h1 className="text-6xl lg:text-8xl text-center mt-8 mb-12">about me</h1>
 
       <div className="flex flex-col lg:flex-row space-y-12 lg:justify-center items-center lg:transform lg:-translate-y-12 lg:h-full">
         <div className="lg:mr-24 justify-center items-center flex flex-col h-1/2 space-y-2 lg:space-y-8">

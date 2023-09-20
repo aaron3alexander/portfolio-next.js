@@ -111,7 +111,7 @@ export default function Experience() {
 
             <div className="text-left lg:text-base text-sm">
               <h1>
-                <b>Company:</b> Children's Health
+                <b>Company:</b> {"Children's Health"}
               </h1>
               <h1>
                 <b>Position:</b> React Native Volunter Developer
