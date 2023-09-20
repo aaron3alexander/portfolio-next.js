@@ -1,9 +1,9 @@
 export default function Contact() {
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const data = new FormData(e.currentTarget);
-    console.log(data);
-  }
+  // async function handleSubmit(e) {
+  //   e.preventDefault();
+  //   const data = new FormData(e.currentTarget);
+  //   console.log(data);
+  // }
   return (
     <div className="flex flex-col items-center h-full p-4">
       <h1 className="text-6xl lg:text-8xl text-center mt-8 lg:mb-24 mb-12 text-white">
