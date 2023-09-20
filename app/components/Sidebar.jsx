@@ -86,13 +86,13 @@ export default function Sidebar() {
           ></div>
         </a>
 
-        <a href="#contact">
+        {/* <a href="#contact">
           <div
             className={`shape ${
               currentSection === "contact" ? "square" : "diamond"
             }`}
           ></div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
