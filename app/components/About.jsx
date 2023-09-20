@@ -4,6 +4,7 @@ import { SiLinkedin } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import DescriptionIcon from "@mui/icons-material/Description";
+import { MdDescription } from "react-icons/md";
 import Link from "next/link";
 
 import "@fontsource/poppins"; // Defaults to weight 400
@@ -35,7 +36,7 @@ export default function About() {
 
           <div className="justify-center items-center flex rounded-lg border-black border-2 w-5/6 space-x-4 lg:space-x-8">
             <Link href={RESUME_LINK} target="_blank">
-              <DescriptionIcon className="w-7 h-7 lg:w-9 lg:h-9" />
+              <MdDescription className="w-7 h-7 lg:w-9 lg:h-9" />
             </Link>
             <Link
               target="_blank"

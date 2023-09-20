@@ -1,8 +1,8 @@
 import Image from "next/image";
 import zendesk from "../../public/zendesk.svg";
 import childrens from "../../public/childrens.jpg";
-import { BiLogoReact } from "react-icons/bi";
-import { AiFillHtml5 } from "react-icons/ai";
+import { SiReact } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiDocker } from "react-icons/si";
@@ -54,15 +54,46 @@ export default function Experience() {
                 <h1>
                   <b>Tech used:</b>
                 </h1>
-                <div className="items-center flex ">
-                  <BiLogoReact className="w-12 h-12" />
-                  <AiFillHtml5 className="w-12 h-12" />
-                  <SiCss3 className="w-10 h-10" />
-                  <SiTypescript className="w-9 h-9 mr-1 ml-px" />
-                  <SiDocker className="w-12 h-12" />
-                  <SiRubyonrails className="w-12 h-12" />
-                  <SiJest className="w-9 h-9" />
-                  <TbBrandCypress className="w-10 h-10" />
+                <div className="items-center flex">
+                  <div className="tooltip">
+                    <SiReact className="w-10 h-10" />
+                    <span className="tooltiptext">React.js</span>
+                  </div>
+
+                  <div className="tooltip w-fit">
+                    <SiHtml5 className="w-9 h-9" />
+                    <span className="tooltiptext">HTML</span>
+                  </div>
+
+                  <div className="tooltip mr-1">
+                    <SiCss3 className="w-9 h-9" />
+                    <span className="tooltiptext">CSS</span>
+                  </div>
+
+                  <div className="tooltip ml-px mr-1.5">
+                    <SiTypescript className="w-9 h-9" />
+                    <span className="tooltiptext">TypeScript</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <SiDocker className="w-12 h-12" />
+                    <span className="tooltiptext">Docker</span>
+                  </div>
+
+                  <div className="tooltip mr-1">
+                    <SiRubyonrails className="w-12 h-12" />
+                    <span className="tooltiptext">Ruby on Rails</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <SiJest className="w-9 h-9" />
+                    <span className="tooltiptext">Jest.js</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <TbBrandCypress className="w-10 h-10" />
+                    <span className="tooltiptext">Cypress.js</span>
+                  </div>
                 </div>
               </div>
 
@@ -75,12 +106,12 @@ export default function Experience() {
                     <b> React.js</b> and <b>TypeScript</b>
                   </li>
                   <li>
-                    Integrated REST APIs through GraphQL queries and utilized
-                    Postman for testing/debugging
-                  </li>
-                  <li>
                     Deployed code changes to production, adding new Jest and
                     Cypress tests as needed
+                  </li>
+                  <li>
+                    Integrated <b>REST APIs</b> through <b>GraphQL</b> queries
+                    and utilized Postman for testing/debugging
                   </li>
                   <li>
                     Collaborated in an agile Scrum team, resolving
@@ -124,11 +155,30 @@ export default function Experience() {
                   <b>Tech used:</b>
                 </h1>
                 <div className="items-center flex">
-                  <BiLogoReact className="w-12 h-12" />
-                  <BiLogoJavascript className="w-12 h-12" />
-                  <BiLogoAws className="w-12 h-12" />
-                  <BiLogoFigma className="w-10 h-10" />
-                  <AiFillAndroid className="w-11 h-11" />
+                  <div className="tooltip">
+                    <SiReact className="w-10 h-10" />
+                    <span className="tooltiptext">React</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <BiLogoJavascript className="w-12 h-12" />
+                    <span className="tooltiptext">JavaScript</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <BiLogoAws className="w-12 h-12" />
+                    <span className="tooltiptext">AWS Amplify</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <BiLogoFigma className="w-10 h-10" />
+                    <span className="tooltiptext">Figma</span>
+                  </div>
+
+                  <div className="tooltip">
+                    <AiFillAndroid className="w-11 h-11" />
+                    <span className="tooltiptext">Android</span>
+                  </div>
                 </div>
               </div>
               <hr className="h-px border-black m-1" />
@@ -140,8 +190,8 @@ export default function Experience() {
                     physical activity
                   </li>
                   <li>
-                    Collaborated with a team of ~12 developers to create React
-                    Native code and incorporate Figma designs
+                    Collaborated with a team of ~12 developers to create{" "}
+                    <b>React Native</b> code and incorporate Figma designs
                   </li>
                   <li>
                     Programmed account creation flow and linked components to
