@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import "../css/sidebar.css";
 
 export default function Sidebar() {
-  const sections = ["home", "about", "education", "experience"];
+  const sections = ["home", "about", "education", "experience", "contact"];
   const [currentSection, setCurrentSection] = useState("home");
 
   function debounce(func, delay) {
@@ -35,7 +35,11 @@ export default function Sidebar() {
   }, [handleScroll]);
 
   useEffect(() => {
-    if (currentSection != "home" && currentSection != "education") {
+    if (
+      currentSection != "home" &&
+      currentSection != "education" &&
+      currentSection != "contact"
+    ) {
       const shapes = document.querySelectorAll(`.shape`);
       shapes.forEach((element) => {
         element.classList.add("dark");
@@ -49,7 +53,7 @@ export default function Sidebar() {
   }, [currentSection]);
 
   return (
-    <div className="hidden md:flex">
+    <div className="hidden lg:flex">
       <div className="sidebar">
         <a href="#home">
           <div
@@ -78,6 +82,14 @@ export default function Sidebar() {
           <div
             className={`shape ${
               currentSection === "experience" ? "square" : "diamond"
+            }`}
+          ></div>
+        </a>
+
+        <a href="#contact">
+          <div
+            className={`shape ${
+              currentSection === "contact" ? "square" : "diamond"
             }`}
           ></div>
         </a>

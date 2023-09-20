@@ -66,7 +66,7 @@ export default function About() {
             <br />
             <p>
               {"I'm "} currently learning Next.js{" "}
-              <span className="rounded-lg px-1 bg-black text-white text-green-700">
+              <span className="rounded-lg px-1 bg-black text-white">
                 {"(this website was built using it actually!)"}
               </span>
               , Typescript, and Node.js. {"I've "} done mainly frontend work in

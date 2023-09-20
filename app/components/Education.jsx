@@ -4,11 +4,11 @@ import unt from "../../public/unt.jpeg";
 export default function Education() {
   return (
     <div className="p-4 h-full lg:h-full flex flex-col text-white mb-4">
-      <h1 className="text-6xl lg:text-8xl text-center mt-8 mb-12 lg:mb-24">
+      <h1 className="text-6xl lg:text-8xl text-center mt-8 mb-12 ">
         education
       </h1>
 
-      <div className=" flex flex-col lg:flex-row w-full items-center h-full justify-evenly lg:justify-center lg:space-x-12">
+      <div className=" flex flex-col lg:flex-row w-full items-center lg:transform lg:-translate-y-20 h-full justify-evenly lg:justify-center lg:space-x-12">
         <div className="mb-4 lg:mb-0">
           <Image
             className="rounded-lg "
@@ -24,12 +24,16 @@ export default function Education() {
           <hr className="h-0.5 bg-black mb-2" />
           <p>B.S. - Computer Science, B.A. - Chemistry</p>
           <p></p>
-          <li>Minors in Math & Biology</li>
-          <li>GPA: 3.98 | Full Ride Merit Scholarship</li>
-          <li>Public Relations Officer @ UNT CS Club</li>
-          <li>
-            Expected <u>May 2024</u>
-          </li>
+          <div className="px-4">
+            <ul className="list-disc	">
+              <li>Minors in Math & Biology</li>
+              <li>GPA: 3.98 | Full Ride Merit Scholarship</li>
+              <li>Public Relations Officer @ UNT CS Club</li>
+              <li>
+                Expected <u>May 2024</u>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -12,6 +12,10 @@
     height: 50rem;
 }
 
+input {
+    color:black
+}
+
 .unt-green{
     background-color: #00853e;
 }

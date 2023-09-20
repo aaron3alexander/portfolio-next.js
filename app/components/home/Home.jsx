@@ -68,7 +68,7 @@ export default function Home() {
               Hey, my name is
             </span>
             <div className="lg:hidden">
-              <h1 id="alt_logo" className="text-white invisible text-6xl">
+              <h1 id="alt_logo" className="text-white invisible text-6xl mt-2">
                 aaron alexander
               </h1>
             </div>
