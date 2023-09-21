@@ -25,6 +25,7 @@ export default function Contact() {
       console.error(err);
       alert("Error submitting form. Please try again later!");
     }
+    document.getElementById("contact-form").reset();
   }
 
   return (
@@ -62,6 +63,7 @@ export default function Contact() {
       </div>
 
       <form
+        id="contact-form"
         onSubmit={handleSubmit}
         className="h-fit w-80 lg:w-fit text-white space-y-2 flex flex-col justify-center items-center rounded-lg p-4"
       >

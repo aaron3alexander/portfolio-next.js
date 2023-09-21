@@ -14,7 +14,7 @@ export default function handler(req, res) {
     from: process.env.USER_MAIL,
     to: "aaron.3alexander@gmail.com",
     subject: `SITE MESSAGE: From ${req.body.first} ${req.body.last}. Number: ${req.body.phone}`,
-    text: `EMAIL: ${req.body.email} \nPHONE: ${req.body.phone} \n MESSAGE:\n${req.body.message}`,
+    text: `EMAIL: ${req.body.email} \nPHONE: ${req.body.phone} \nMESSAGE:\n${req.body.message}`,
   };
 
   transporter.sendMail(mailData, function (err, info) {
