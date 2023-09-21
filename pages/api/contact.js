@@ -20,7 +20,6 @@ export default function handler(req, res) {
   transporter.sendMail(mailData, function (err, info) {
     if (err) {
       console.log(err);
-
       res.send(500);
     } else {
       console.log(info);
