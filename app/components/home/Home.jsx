@@ -1,10 +1,12 @@
 "use client";
 import { Canvas } from "@react-three/fiber";
-import SouthIcon from "@mui/icons-material/South";
-import StarsAnimated from "./StarsAnimated";
-import { TbMouseFilled } from "react-icons/tb";
-
+import { Suspense, lazy } from "react";
 import { useEffect } from "react";
+
+import { TbMouseFilled } from "react-icons/tb";
+import SouthIcon from "@mui/icons-material/South";
+
+const StarsAnimated = lazy(() => import("./StarsAnimated"));
 
 export default function Home() {
   const bgColor = ({ gl }) => {
@@ -58,7 +60,9 @@ export default function Home() {
           camera={{ position: [20, 3, 5], fov: 25 }}
           onCreated={bgColor}
         >
-          <StarsAnimated />
+          <Suspense fallback={null}>
+            <StarsAnimated />
+          </Suspense>
         </Canvas>
       </div>
       <div className="lg:bg-transparent w-full justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex">

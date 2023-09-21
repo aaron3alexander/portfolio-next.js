@@ -19,9 +19,9 @@ const StarsAnimated = () => {
   );
 
   useFrame(() => {
-    starsRef.current.rotation.y += 0.0001;
-    starsRef.current.rotation.x -= 0.001;
-    starsRef.current.rotation.z += 0.0011;
+    starsRef.current.rotation.y += 0.0005;
+    starsRef.current.rotation.x += 0.0005;
+    starsRef.current.rotation.z += 0.0005;
   });
 
   return <Stars ref={starsRef} {...starProps} />;
