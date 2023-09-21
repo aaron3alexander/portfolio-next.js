@@ -15,13 +15,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>Aaron Alexander</title>
-        <meta
-          name="description"
-          content="The personal website of Aaron Alexander. Interested in fullstack and frontend development."
-        />
-      </head>
       <body className={`${inter.className} `}>
         {children}
         <Analytics />

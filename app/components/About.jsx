@@ -5,14 +5,13 @@ import { SiGmail } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { MdDescription } from "react-icons/md";
 import Link from "next/link";
+const RESUME_LINK = "/files/aaron_alexander_resume.pdf";
 
 import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/400.css"; // Specify weight
 import "@fontsource/poppins/400-italic.css"; // Specify weight and style
 
 export default function About() {
-  const RESUME_LINK = "/files/aaron_alexander_resume.pdf";
-
   return (
     <div className="bg-white h-full flex flex-col">
       <h1 className="text-6xl lg:text-8xl text-center mt-8 mb-12 lg:mb-0">
