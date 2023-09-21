@@ -33,19 +33,29 @@ export default function About() {
           </div>
 
           <div className="justify-center items-center flex rounded-lg border-black border-2 w-5/6 space-x-4 lg:space-x-8">
-            <Link href={RESUME_LINK} target="_blank">
+            <Link href={RESUME_LINK} title="Resume" target="_blank">
               <MdDescription className="w-7 h-7 lg:w-9 lg:h-9" />
             </Link>
             <Link
               target="_blank"
+              title="LinkedIn"
               href="https://www.linkedin.com/in/aaron3alexander/"
             >
               <SiLinkedin className="w-6 h-6 lg:w-8 lg:h-8" />
             </Link>
-            <Link target="_blank" href="https://github.com/aaron3alexander">
+
+            <Link
+              target="_blank"
+              title="GitHub"
+              href="https://github.com/aaron3alexander"
+            >
               <SiGithub className="w-6 h-6 lg:w-8 lg:h-8" />
             </Link>
-            <Link target="_blank" href="mailto:aaron.3alexander@gmail.com">
+            <Link
+              target="_blank"
+              title="Gmail"
+              href="mailto:aaron.3alexander@gmail.com"
+            >
               <SiGmail className="w-6 h-6 lg:w-8 lg:h-8" />
             </Link>
           </div>
