@@ -18,8 +18,12 @@ export default function handler(req, res) {
   };
 
   transporter.sendMail(mailData, function (err, info) {
-    if (err) console.log(err);
-    else console.log(info);
+    if (err) {
+      console.log(err);
+      res.send(500);
+    } else {
+      console.log(info);
+      res.send(200);
+    }
   });
-  res.send(200);
 }
