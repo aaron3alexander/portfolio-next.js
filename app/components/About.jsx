@@ -3,7 +3,6 @@ import mypic from "../../public/linkedinpfp.jpg";
 import { SiLinkedin } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
-import DescriptionIcon from "@mui/icons-material/Description";
 import { MdDescription } from "react-icons/md";
 import Link from "next/link";
 
