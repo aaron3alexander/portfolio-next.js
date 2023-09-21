@@ -12,8 +12,7 @@ import "@fontsource/poppins/400.css"; // Specify weight
 import "@fontsource/poppins/400-italic.css"; // Specify weight and style
 
 export default function About() {
-  const RESUME_LINK =
-    "https://drive.google.com/file/d/14Z2AnaXS2PXQtQA7x8Z2E18ig0bX2un6/view?usp=sharing";
+  const RESUME_LINK = "/files/aaron_alexander_resume.pdf";
 
   return (
     <div className="bg-white h-full flex flex-col">
