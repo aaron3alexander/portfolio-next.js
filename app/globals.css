@@ -4,9 +4,13 @@
 
 @import "tailwindcss/utilities";
 
-*, html {
+*, html, body {
     scroll-behavior: smooth !important;
 }
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
 
 .h-200{
     height: 50rem;
