@@ -19,6 +19,7 @@
     "@prisma/client": "^5.2.0",
     "@react-three/drei": "^9.83.8",
     "@react-three/fiber": "^8.14.1",
+    "@vercel/analytics": "^1.0.2",
     "autoprefixer": "10.4.15",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
