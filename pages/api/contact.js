@@ -16,7 +16,6 @@ export default function handler(req, res) {
     subject: `SITE MESSAGE: From ${req.body.first} ${req.body.last}. Number: ${req.body.phone}`,
     text: `EMAIL: ${req.body.email} \nPHONE: ${req.body.phone} \nMESSAGE:\n${req.body.message}`,
   };
-  console.log(mailData);
 
   transporter.sendMail(mailData, function (err, info) {
     if (err) {
