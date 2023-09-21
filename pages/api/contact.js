@@ -16,10 +16,16 @@ export default function handler(req, res) {
     subject: `SITE MESSAGE: From ${req.body.first} ${req.body.last}. Number: ${req.body.phone}`,
     text: `EMAIL: ${req.body.email} \nPHONE: ${req.body.phone} \nMESSAGE:\n${req.body.message}`,
   };
+  console.log(mailData);
 
   transporter.sendMail(mailData, function (err, info) {
-    if (err) console.log(err);
-    else console.log(info);
+    if (err) {
+      console.log(err);
+
+      res.send(500);
+    } else {
+      console.log(info);
+      res.send(200);
+    }
   });
-  res.send(200);
 }
