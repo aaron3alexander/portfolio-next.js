@@ -6,7 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Aaron Alexander",
-  description: "Aaron Alexander's Portfolio",
+  description:
+    "The personal website of Aaron Alexander. Interested in fullstack and frontend development.",
+  viewport: { width: "device-width", initialScale: 1 },
+  icons: [{ rel: "shortcut icon", url: "/favicon.ico" }],
 };
 
 export default function RootLayout({ children }) {
