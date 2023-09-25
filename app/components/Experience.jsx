@@ -106,8 +106,8 @@ export default function Experience() {
                     <b> React.js</b> and <b>TypeScript</b>
                   </li>
                   <li>
-                    Deployed code changes to production, adding new Jest and
-                    Cypress tests as needed
+                    Deployed code changes to production, adding new unit tests
+                    as needed
                   </li>
                   <li>
                     Integrated <b>REST APIs</b> through <b>GraphQL</b> queries
