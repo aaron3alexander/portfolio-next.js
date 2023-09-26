@@ -30,10 +30,10 @@ export default function Contact() {
 
   return (
     <div className="flex flex-col items-center h-full p-4">
-      <h1 className="text-6xl  lg:text-8xl text-center mt-8  mb-12 text-white">
+      <h1 className="text-6xl  lg:text-8xl text-center mt-8  mb-8 text-white">
         contact me
       </h1>
-      <div className="w-fit h-fit flex space-x-4 px-2 py-1 bg-white rounded-lg justify-center items-center mb-4">
+      <div className="w-fit h-fit flex space-x-4 px-2 py-1 bg-white rounded-lg justify-center items-center mb-2">
         <Link href={RESUME_LINK} title="Resume" target="_blank">
           <MdDescription title="Resume" className="w-7 h-7 lg:w-9 lg:h-9" />
         </Link>
