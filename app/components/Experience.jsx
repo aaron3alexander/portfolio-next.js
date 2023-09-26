@@ -23,7 +23,7 @@ export default function Experience() {
         experience
       </h1>
 
-      <div className="flex flex-col h-full w-full space-y-4 items-center justify-evenly lg:flex-row lg:justify-center lg:items-start lg:space-x-28 lg:space-y-0">
+      <div className="mb-4 flex flex-col h-full w-full space-y-4 items-center justify-evenly lg:flex-row lg:justify-center lg:items-start lg:space-x-28 lg:space-y-0">
         <div className="border-2 py-2 border-black w-full h-fit lg:w-96 lg:shadow-2xl rounded-lg">
           <div className="w-full h-full px-4 py-1 flex flex-col">
             <div className="w-full flex justify-center items-center mb-1 lg:mb-0 ">
