@@ -42,7 +42,7 @@ export default function Page() {
       <section className="h-fit lg:h-screen" id="experience">
         <Experience />
       </section>
-      <section className="h-fit w-full lg:h-screen bg-black" id="contact">
+      <section className="h-fit w-full  bg-black" id="contact">
         <Contact />
       </section>
     </div>
