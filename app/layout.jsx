@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Aaron Alexander",
   description:
-    "The personal website of Aaron Alexander. Interested in fullstack and frontend development.",
+    "Hey, I'm Aaron! I am a senior at UNT who is majoring in Computer Science and Chemistry. I recently interned at Zendesk, and am currently looking for fulltime SWE positions.",
   viewport: { width: "device-width", initialScale: 1 },
   icons: [{ rel: "shortcut icon", url: "/favicon.ico" }],
 };
