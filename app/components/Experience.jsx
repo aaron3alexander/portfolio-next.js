@@ -18,13 +18,13 @@ import Link from "next/link";
 
 export default function Experience() {
   return (
-    <div className="p-4 mb-4 flex flex-col w-full lg:h-screen">
+    <div className="p-4 mb-4 flex flex-col w-full h-fit">
       <h1 className="text-6xl lg:text-8xl text-center mt-8 mb-12">
         experience
       </h1>
 
       <div className="flex flex-col h-full w-full space-y-4 items-center justify-evenly lg:flex-row lg:justify-center lg:items-start lg:space-x-28 lg:space-y-0">
-        <div className="border-2 py-2 border-black w-full h-fit lg:w-96 lg:shadow-2xl rounded-lg">
+        <div className="border-2 py-2 border-black w-full max-w-lg lg:max-w-none h-fit lg:w-96 lg:shadow-2xl rounded-lg">
           <div className="w-full h-full px-4 py-1 flex flex-col">
             <div className="w-full flex justify-center items-center mb-1 lg:mb-0 ">
               <Link href={"https://www.zendesk.com/"} target="_blank">
@@ -124,7 +124,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className="border-2 py-2 border-black w-full h-fit lg:w-96 lg:shadow-2xl rounded-lg">
+        <div className="border-2 py-2 border-black w-full max-w-lg lg:max-w-none h-fit lg:w-96 lg:shadow-2xl rounded-lg">
           <div className="w-full h-full px-4 flex flex-col">
             <div className="w-full flex justify-center items-center">
               <Link href={"https://www.childrens.com/"} target="_blank">

@@ -53,7 +53,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="w-full h-screen hidden lg:flex ">
+      <div className="w-full h-screen hidden xl:flex ">
         <Canvas
           id="canvas"
           style={{ width: "100%", height: "100vh" }}
@@ -65,20 +65,20 @@ export default function Home() {
           </Suspense>
         </Canvas>
       </div>
-      <div className="lg:bg-transparent w-full justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex">
+      <div className="xl:bg-transparent w-full justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex">
         <div className="flex flex-col justify-center items-center">
-          <div className="text-center lg:text-left w-full px-4">
-            <span className="animate-hide animate opacity-0 transition-opacity duration-2000 text-white text-xl lg:text-2xl ">
+          <div className="text-center xl:text-left w-full px-4">
+            <span className="animate-hide animate opacity-0 transition-opacity duration-2000 text-white text-xl xl:text-2xl ">
               Hey, my name is
             </span>
-            <div className="lg:hidden">
+            <div className="xl:hidden">
               <h1 id="alt_logo" className="text-white invisible text-6xl mt-2">
                 aaron alexander
               </h1>
             </div>
 
             <a href="#about">
-              <div className="hidden lg:flex">
+              <div className="hidden xl:flex">
                 <svg
                   width="1184"
                   height="111"

@@ -53,7 +53,7 @@ export default function Sidebar() {
   }, [currentSection]);
 
   return (
-    <div className="hidden lg:flex">
+    <div className="hidden xl:flex">
       <div className="sidebar">
         <a href="#home">
           <div

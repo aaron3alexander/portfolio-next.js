@@ -60,7 +60,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="h-full lg:h-1/3 px-8 lg:w-1/3 space-y-8 transform -translate-y-8">
+        <div className="h-full lg:h-1/3 px-8 w-fit max-w-xl  space-y-8 transform -translate-y-8">
           <div className="text-xs lg:text-base h-fit">
             <h1 className="text-2xl lg:text-6xl lg:mb-2">{"I'm Aaron"}</h1>
             <hr className="h-0.5 bg-black mb-4" />

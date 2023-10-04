@@ -1,16 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      
+      screens: {
+        tall: { raw: "(min-height: 800px)" },
+        // => @media (min-height: 800px) { ... }
+      },
     },
   },
   plugins: [
-    require("@tailwindcss/typography"), require("@tailwindcss/forms"), require("@headlessui/tailwindcss")
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@headlessui/tailwindcss"),
   ],
-}
+};
