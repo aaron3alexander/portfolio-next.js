@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { MdDescription } from "react-icons/md";
 import Link from "next/link";
-const RESUME_LINK = "/files/aaron_alexander_resume.pdf";
+const RESUME_LINK = "/aaron_alexander_resume.pdf";
 
 import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/400.css"; // Specify weight
