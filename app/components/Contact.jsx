@@ -6,7 +6,7 @@ import { SiGithub } from "react-icons/si";
 import { MdDescription } from "react-icons/md";
 import Link from "next/link";
 
-const RESUME_LINK = "/files/aaron_alexander_resume.pdf";
+const RESUME_LINK = "/aaron_alexander_resume.pdf";
 
 export default function Contact() {
   async function handleSubmit(e) {
