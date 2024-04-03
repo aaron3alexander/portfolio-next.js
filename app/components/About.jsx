@@ -31,7 +31,7 @@ export default function About() {
             />
           </div>
 
-          <div className="justify-center items-center flex rounded-lg border-black border-2 w-5/6 space-x-4 lg:space-x-8">
+          <div className="justify-center items-center flex rounded-lg border-black border-2 w-5/6 space-x-4 lg:w-4/6 lg:space-x-8">
             <Link href={RESUME_LINK} title="Resume" target="_blank">
               <MdDescription className="w-7 h-7 lg:w-9 lg:h-9" />
             </Link>

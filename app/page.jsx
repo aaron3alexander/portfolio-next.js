@@ -30,19 +30,22 @@ export default function Page() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Sidebar />
-      <section className="bg-black h-screen" id="home">
+      <section className="bg-black h-screen lg:snap-start" id="home">
         <Home />
       </section>
-      <section className=" h-fit lg:h-screen" id="about">
+      <section className=" h-fit lg:h-screen lg:snap-start" id="about">
         <About />
       </section>
-      <section className="unt-green h-fit lg:h-screen" id="education">
+      <section
+        className="unt-green h-fit lg:h-screen lg:snap-start"
+        id="education"
+      >
         <Education />
       </section>
-      <section className="h-fit lg:h-screen" id="experience">
+      <section className="h-fit lg:h-screen lg:snap-start" id="experience">
         <Experience />
       </section>
-      <section className="h-fit w-full  bg-black" id="contact">
+      <section className="h-fit w-full bg-black lg:snap-start" id="contact">
         <Contact />
       </section>
     </div>

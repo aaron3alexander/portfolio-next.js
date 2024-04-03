@@ -25,7 +25,7 @@ export default function Education() {
           <p>B.S. - Computer Science, B.A. - Chemistry</p>
           <p></p>
           <div className="px-4">
-            <ul className="list-disc	">
+            <ul className="list-disc">
               <li>Minors in Math & Biology</li>
               <li>GPA: 3.98 | Full Ride Merit Scholarship</li>
               <li>Vice President @ UNT CS Club</li>
