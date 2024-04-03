@@ -28,7 +28,7 @@ export default function Education() {
             <ul className="list-disc	">
               <li>Minors in Math & Biology</li>
               <li>GPA: 3.98 | Full Ride Merit Scholarship</li>
-              <li>Public Relations Officer @ UNT CS Club</li>
+              <li>Vice President @ UNT CS Club</li>
               <li>
                 Expected <u>May 2024</u>
               </li>
