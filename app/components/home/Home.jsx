@@ -78,7 +78,7 @@ export default function Home() {
             </div>
 
             <a href="#about">
-              <div className="hidden lg:flex">
+              <div className="name hidden lg:flex">
                 <svg
                   width="1184"
                   height="111"

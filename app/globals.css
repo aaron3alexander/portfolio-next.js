@@ -88,10 +88,16 @@ section {
 #logo path {
   transition: fill 0.5s ease-out;
 }
+
+/*
+CSS that makes each individual letter be transparent. 
 #logo path:hover {
   fill: transparent;
-}
+} */
 
+.name:hover path {
+  fill: transparent;
+}
 #child1 {
   stroke-dasharray: 506.4px;
   stroke-dashoffset: 506.4px;
