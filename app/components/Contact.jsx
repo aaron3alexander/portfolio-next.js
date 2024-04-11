@@ -20,7 +20,7 @@ export default function Contact() {
       if (!response.ok) {
         throw new Error(`Invalid response: ${response.status}`);
       }
-      alert("Thanks reaching out! I'll reply to you soon :)");
+      alert("Thanks for reaching out! I'll reply to you soon :)");
     } catch (err) {
       console.error(err);
       alert("Error submitting form. Please try again later!");
